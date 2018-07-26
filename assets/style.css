@@ -1,0 +1,14 @@
+.black {
+    background-color:black;
+    color:white;
+}
+.logo {
+    display:flex;
+    align-content:center;
+    height:40%;
+}
+ul {
+    display:flex;
+    list-style-type:none;
+    justify-content:space-around;
+}
