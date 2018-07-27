@@ -31,9 +31,9 @@ background-color:rgb(241, 120, 6);
 .header {
     height:15vh;
 }
-*/*{
+*{
     outline: 1px solid red;
-}*/
+}
 .motto{
     justify-content:flex-start;
     
@@ -47,4 +47,11 @@ background-color:rgb(241, 120, 6);
 .bg-dots{
     background-image:url("https://d1yn1kh78jj1rr.cloudfront.net/image/preview/rDtN98Qoishumwih/lightgreypolkadots-05-091815-637_SB_PM.jpg");
     background-size:cover;
+}
+.center{
+    display:flex;
+    justify-content:center;
+}
+h3{
+    line-height:2;
 }
