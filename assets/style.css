@@ -5,7 +5,7 @@
 .logo {
     display:flex;
     align-content:center;
-    height:40%;
+    height:80%;
 }
 ul {
     display:flex;
@@ -23,7 +23,24 @@ background-color:rgb(241, 120, 6);
 }
 .main-page {
     height:100vh;
+    font-family: 'Source Serif Pro', serif;
 }
 .row-h{
     height:70vh;
+}
+.header {
+    height:15vh;
+}
+*/*{
+    outline: 1px solid red;
+}*/
+.motto{
+    justify-content:flex-start;
+    
+}
+.white {
+    color:white;
+}
+.divider {
+    border-top: 8px solid white;
 }
