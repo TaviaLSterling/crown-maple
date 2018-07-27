@@ -31,9 +31,9 @@ background-color:rgb(241, 120, 6);
 .header {
     height:15vh;
 }
-*{
+*/*{
     outline: 1px solid red;
-}
+}*/
 .motto{
     justify-content:flex-start;
     
@@ -54,4 +54,15 @@ background-color:rgb(241, 120, 6);
 }
 h3{
     line-height:2;
+}
+.layer {
+        position: relative;
+        text-align: center;
+        color:white;
+}
+.text-layer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 }
